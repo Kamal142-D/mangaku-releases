@@ -1,0 +1,81 @@
+{
+  "versionCode": 10,
+  "versionName": "2.0.8",
+  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.0.8/app-release.apk",
+  "notes": "• More reliable in-app updates.\n• Pinch, double-tap and drag zoom in the reader.\n• One Continue Reading row on Home; recommendations skip your library.\n• Settings is back in the bottom bar.",
+  "changelog": [
+    {
+      "versionCode": 10,
+      "versionName": "2.0.8",
+      "changes": [
+        "Updates now download inside the app, so they no longer get stuck on some phones. After you allow installing apps, the update continues by itself, and if a download fails you can download it in the browser.",
+        "Better zoom while reading: pinch to zoom, double-tap a spot to zoom in on it, and drag to move around — in every reading mode, including webtoon.",
+        "Home: every manga you are reading now sits in one swipeable Continue Reading row of wide cards with banner art.",
+        "Recommended for you no longer shows manga that are already in your library.",
+        "Settings is back in the bottom bar, and the Home search button was removed.",
+        "Updates now come from a new home: Kamal142-D/mangaku-releases."
+      ]
+    },
+    {
+      "versionCode": 8,
+      "versionName": "2.0.7",
+      "changes": [
+        "The Library category bar is now centered."
+      ]
+    },
+    {
+      "versionCode": 7,
+      "versionName": "2.0.6",
+      "changes": [
+        "New liquid-glass selection in the bottom bar: tap a tab and the glass glides over, or hold and drag across the tabs.",
+        "The Library categories (All, Reading, Plan to read, Completed) use the same gliding glass pill.",
+        "On Android 13 and newer, the glass bends what is under its edge while you drag."
+      ]
+    },
+    {
+      "versionCode": 6,
+      "versionName": "2.0.5",
+      "changes": [
+        "Notifications when a manga you're reading gets a new chapter.",
+        "Notifications when someone starts following you.",
+        "Notifications when a new version of Mangaku is available.",
+        "This window now shows what's new in every version since yours."
+      ]
+    },
+    {
+      "versionCode": 5,
+      "versionName": "2.0.4",
+      "changes": [
+        "Home: frosted top bar.",
+        "Continue Reading shows manga you're reading and haven't finished.",
+        "Keep going shows Plan to read and barely-started manga.",
+        "User search and user profiles redesigned with frosted-glass buttons."
+      ]
+    },
+    {
+      "versionCode": 4,
+      "versionName": "2.0.3",
+      "changes": [
+        "Restore from Google Drive recovers your last real backup if the latest one was empty.",
+        "Backups never upload an empty library over an existing backup."
+      ]
+    },
+    {
+      "versionCode": 3,
+      "versionName": "2.0.2",
+      "changes": [
+        "Fixed a crash when opening Backup & restore.",
+        "Opening the Google Drive page no longer starts a backup by itself.",
+        "Opening Reading settings no longer changes the reader mode by itself."
+      ]
+    },
+    {
+      "versionCode": 2,
+      "versionName": "2.0.1",
+      "changes": [
+        "The update window appears every time you open the app while a newer version exists.",
+        "Google Drive backup works in the release build."
+      ]
+    }
+  ]
+}
