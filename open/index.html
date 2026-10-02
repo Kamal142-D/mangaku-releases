@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Open in Mangaku</title>
+<meta name="description" content="Open this in Mangaku — your manga, your progress, always remembered.">
+<meta property="og:title" content="Open in Mangaku">
+<meta property="og:description" content="Your manga. Your progress. Always remembered.">
+<meta name="theme-color" content="#0A0A0B">
+<style>
+  :root { --bg:#0A0A0B; --card:#16171B; --line:rgba(255,255,255,.12); --text:#F7F7F8; --muted:#A6A6AD; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { min-height:100%; display:flex; align-items:center; justify-content:center; padding:24px 16px; }
+  .card { width:100%; max-width:380px; background:var(--card); border:1px solid var(--line);
+    border-radius:26px; padding:28px 22px; text-align:center; }
+  .logo { width:72px; height:72px; margin:0 auto 14px; border-radius:20px; background:#1d1d22;
+    display:flex; align-items:center; justify-content:center; font-size:38px; }
+  .kicker { color:var(--muted); font-size:13px; letter-spacing:.08em; text-transform:uppercase; margin:0 0 6px; }
+  h1 { font-size:24px; margin:0 0 8px; line-height:1.2; word-wrap:break-word; }
+  p.sub { color:var(--muted); font-size:14px; margin:0 0 22px; line-height:1.45; }
+  a.btn { display:block; text-decoration:none; font-weight:700; font-size:16px; border-radius:24px;
+    padding:14px 18px; margin-top:10px; }
+  a.primary { background:#fff; color:#000; }
+  a.secondary { border:1px solid var(--line); color:var(--text); }
+  .foot { color:var(--muted); font-size:12px; margin-top:18px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <div class="logo" aria-hidden="true">☸</div>
+    <p class="kicker" id="kicker">Mangaku</p>
+    <h1 id="title">Open in Mangaku</h1>
+    <p class="sub" id="sub">Your manga. Your progress. Always remembered.</p>
+    <a class="btn primary" id="open" href="#">Open in Mangaku</a>
+    <a class="btn secondary" id="get" href="https://github.com/Kamal142-D/mangaku-releases/releases/latest">Get Mangaku for Android</a>
+    <p class="foot">Already have it? Tap “Open in Mangaku”.</p>
+  </div>
+</main>
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    var type = params.get('t');
+    var id = params.get('id');
+    var name = params.get('title');
+    var download = 'https://github.com/Kamal142-D/mangaku-releases/releases/latest';
+
+    // Text goes in with textContent only (never as HTML).
+    if (type === 'manga') {
+      document.getElementById('kicker').textContent = 'A manga on Mangaku';
+      document.getElementById('title').textContent = name || 'A manga';
+      document.getElementById('sub').textContent = 'Open it in Mangaku to see its details and add it to your library.';
+    } else if (type === 'profile') {
+      document.getElementById('kicker').textContent = 'A reader on Mangaku';
+      document.getElementById('title').textContent = 'See my profile';
+      document.getElementById('sub').textContent = 'Open it in Mangaku to see what I read and follow me.';
+    }
+
+    var open = document.getElementById('open');
+    if (!type || !id) { open.style.display = 'none'; return; }
+
+    // mangaku://open?t=…&id=… — handled by the app (any build: release or beta).
+    var query = location.search.replace(/^\?/, '');
+    var isAndroid = /Android/i.test(navigator.userAgent);
+    var appLink = isAndroid
+      ? 'intent://open?' + query + '#Intent;scheme=mangaku;S.browser_fallback_url=' + encodeURIComponent(download) + ';end'
+      : 'mangaku://open?' + query;
+    open.href = appLink;
+
+    // Try once automatically; the button is there if the browser blocks it.
+    if (isAndroid) setTimeout(function () { location.href = appLink; }, 350);
+  })();
+</script>
+</body>
+</html>
