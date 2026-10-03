@@ -1,9 +1,31 @@
 {
-  "versionCode": 10,
-  "versionName": "2.0.8",
-  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.0.8/app-release.apk",
-  "notes": "• More reliable in-app updates.\n• Pinch, double-tap and drag zoom in the reader.\n• One Continue Reading row on Home; recommendations skip your library.\n• Settings is back in the bottom bar.",
+  "versionCode": 11,
+  "versionName": "2.1.0",
+  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.0/app-release.apk",
+  "notes": "• A big animation update across the whole app.\n• See which people you follow have a manga.\n• Share cards with a link and QR code.\n• Fixed: your library now saves to your account properly.",
   "changelog": [
+    {
+      "versionCode": 11,
+      "versionName": "2.1.0",
+      "changes": [
+        "A big animation update: pages slide and fade in, cards squish a little when you tap them, lists cascade in, and loading shows shimmering placeholders.",
+        "Open a manga from your Library and its cover flies into the manga page.",
+        "Home: Continue Reading is now a stack of cards that glides on by itself and follows your swipes. Pull down to refresh. Scroll down and the bottom bar slides away; scroll up and it's back.",
+        "Manga page: see which people you follow have the manga, whether it's ongoing, finished or cancelled, a heart animation for favorites, and a smoother Read more.",
+        "Fixed: your library now saves to your account properly. Before, it could fail to upload, so other devices and your followers didn't see it.",
+        "Fixed: changing a manga's source now really loads the new source's chapters.",
+        "Share cards for a manga and for your stats, with a link and a QR code that open Mangaku on that manga or your profile.",
+        "Send feedback, questions or ideas from Settings.",
+        "A short tour on every screen the first time you open it. Replay it any time from Settings → About.",
+        "Reading island (Settings → Reading): a new look, alerts for new chapters, download progress, and an optional reading reminder at the time you usually read.",
+        "Xiaomi phones: Mangaku can use Xiaomi's Super Island (Settings → Reading).",
+        "Notifications show the manga's cover, and you can swipe them away in the list.",
+        "Reader: next-chapter buttons, a page flip in paged mode, and it remembers exactly where you stopped.",
+        "Choose an app icon and theme in Appearance; frosted-glass buttons follow your theme's colors.",
+        "Hold a manga in your Library to select several. Your profile stats count up, and you can edit your profile on a new card.",
+        "Import and Export are being rebuilt and will come back in a later update."
+      ]
+    },
     {
       "versionCode": 10,
       "versionName": "2.0.8",
