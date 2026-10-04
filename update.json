@@ -1,11 +1,11 @@
 {
-  "versionCode": 11,
+  "versionCode": 12,
   "versionName": "2.1.0",
   "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.0/app-release.apk",
   "notes": "• A big animation update across the whole app.\n• See which people you follow have a manga.\n• Share cards with a link and QR code.\n• Fixed: your library now saves to your account properly.",
   "changelog": [
     {
-      "versionCode": 11,
+      "versionCode": 12,
       "versionName": "2.1.0",
       "changes": [
         "A big animation update: pages slide and fade in, cards squish a little when you tap them, lists cascade in, and loading shows shimmering placeholders.",
