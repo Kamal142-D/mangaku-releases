@@ -1,9 +1,26 @@
 {
-  "versionCode": 12,
-  "versionName": "2.1.0",
-  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.0/app-release.apk",
-  "notes": "• A big animation update across the whole app.\n• See which people you follow have a manga.\n• Share cards with a link and QR code.\n• Fixed: your library now saves to your account properly.",
+  "versionCode": 14,
+  "versionName": "2.1.1",
+  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.1/app-release.apk",
+  "notes": "• Import and Export are back — export any chapter as PDF or CBZ.\n• Faster, smarter search.\n• Manga with a new chapter come back to the front of Continue Reading.\n• More reliable notifications (Settings → Notifications).\n• Choose how pages turn in the reader.",
   "changelog": [
+    {
+      "versionCode": 14,
+      "versionName": "2.1.1",
+      "changes": [
+        "Import is back: add a manga from a ZIP, CBZ or PDF on your phone, or add chapter files to one you already have — a ZIP full of PDFs works too. Hidden and broken files inside a ZIP are skipped. See and delete your imported chapters on the Import page. Imports stay on your phone.",
+        "Export is back: save any chapter as PDF or CBZ in Downloads/Mangaku, each manga in its own folder — chapters you haven't downloaded are fetched first. PDFs are much smaller now, and long chapters no longer fail.",
+        "Search is faster and smarter: results show in under a second, and the series you're looking for comes first instead of side stories and fan works.",
+        "Continue Reading: when a manga you've caught up on gets a new chapter, it comes back by itself — at the front, with a \"New chapter\" label. Pull down on Home to check right away.",
+        "More reliable notifications: Mangaku checks for new chapters and updates every 2 hours. The new Settings → Notifications page shows what's blocking them (with one-tap fixes on Xiaomi phones), sends a test notification, or checks right now.",
+        "Xiaomi Super Island now looks like Mangaku's own island: the cover with your reading progress, and Continue / Next chapter buttons when you open it. New chapters get a Read button.",
+        "Reader: choose how pages turn — Page flip, Slide, Fade, Zoom, Depth, Cube or Stack (Settings → Reading).",
+        "A manga you add now starts without a source, so you pick the one you like. MangaDex shows up in the list when it has the title.",
+        "Marking a manga Completed fills in its last chapter for you — when you add it, and on its page.",
+        "Home: the first letter under covers in Keep going, Trending and Recommended is no longer cut off.",
+        "Removing a manga you imported from files also frees the space its pages used."
+      ]
+    },
     {
       "versionCode": 12,
       "versionName": "2.1.0",
