@@ -1,9 +1,20 @@
 {
-  "versionCode": 14,
-  "versionName": "2.1.1",
-  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.1/app-release.apk",
-  "notes": "• Import and Export are back — export any chapter as PDF or CBZ.\n• Faster, smarter search.\n• Manga with a new chapter come back to the front of Continue Reading.\n• More reliable notifications (Settings → Notifications).\n• Choose how pages turn in the reader.",
+  "versionCode": 16,
+  "versionName": "2.1.3",
+  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.3/app-release.apk",
+  "notes": "• REQUIRED UPDATE: older versions will stop working soon — please install this one.\n• Mangaku now speaks Arabic, English and Russian.\n• Over 100 English and 10 Russian reading sources.\n• Faster at finding a manga on the sites.\n• No more pornographic titles in Search, Home and profiles.",
   "changelog": [
+    {
+      "versionCode": 16,
+      "versionName": "2.1.3",
+      "changes": [
+        "Required update: older versions of Mangaku will stop working soon, so please install this one. From now on, when an update is required the app will say so and won't open until it's installed.",
+        "Mangaku now speaks Arabic, English and Russian: choose the app's language in Settings → Language.",
+        "Over 100 English reading sources and 10 Russian ones are new. Pick which languages' sources the app offers in Settings → Source languages.",
+        "Finding a manga on the sites is faster: more sources are checked at the same time.",
+        "Search, Home and profiles no longer show pornographic titles. Ecchi and mature manga are not affected."
+      ]
+    },
     {
       "versionCode": 14,
       "versionName": "2.1.1",
@@ -116,5 +127,6 @@
         "Google Drive backup works in the release build."
       ]
     }
-  ]
+  ],
+  "minVersionCode": 16
 }
