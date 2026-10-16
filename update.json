@@ -1,9 +1,21 @@
 {
-  "versionCode": 16,
-  "versionName": "2.1.3",
-  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.3/app-release.apk",
-  "notes": "• REQUIRED UPDATE: older versions will stop working soon — please install this one.\n• Mangaku now speaks Arabic, English and Russian.\n• Over 100 English and 10 Russian reading sources.\n• Faster at finding a manga on the sites.\n• No more pornographic titles in Search, Home and profiles.",
+  "versionCode": 18,
+  "versionName": "2.1.4",
+  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.4/app-release.apk",
+  "notes": "• New liquid glass look for buttons and bars.\n• Search manga rises from the bottom bar into a centred panel.\n• Library: search in place and swipe between categories.\n• Cancel chapter downloads; fixed a crash when reversing chapters.\n• New English sources.",
   "changelog": [
+    {
+      "versionCode": 18,
+      "versionName": "2.1.4",
+      "changes": [
+        "A new look: buttons and bars are now liquid glass, like iOS 26 — they bend and brighten what scrolls under them, and the top and bottom edges blur softly.",
+        "Search manga now rises out of the bottom bar like liquid into a panel in the middle of the screen. Manga you already have show “In your library”.",
+        "Library: tap search and the button stretches into a search field that filters your library right there, and swipe left or right to move between categories.",
+        "Chapters: tap a download in progress to cancel it. Reversing the chapter order no longer closes the app.",
+        "New English sources: MangaToon, VoyceMe, NamiComi, Manga UP! and Philia Scans. Luminare Translations works again.",
+        "Clearer sign-in messages when your email isn't confirmed yet or the password is wrong, and easier-to-see icons in the bottom bar."
+      ]
+    },
     {
       "versionCode": 16,
       "versionName": "2.1.3",
