@@ -1,9 +1,23 @@
 {
-  "versionCode": 18,
-  "versionName": "2.1.4",
-  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.4/app-release.apk",
-  "notes": "• New liquid glass look for buttons and bars.\n• Search manga rises from the bottom bar into a centred panel.\n• Library: search in place and swipe between categories.\n• Cancel chapter downloads; fixed a crash when reversing chapters.\n• New English sources.",
+  "versionCode": 28,
+  "versionName": "2.1.5",
+  "apkUrl": "https://github.com/Kamal142-D/mangaku-releases/releases/download/v2.1.5/app-release.apk",
+  "notes": "• Long-strip chapters fill the screen; full screen hides the system bars.\n• Pages load in order and faster; the next chapter is ready early.\n• Tap the sides to turn pages; reading mode is remembered per manga.\n• Profile: Completed shelf and reading stats.\n• AniList sync, Wi-Fi auto-download, glass menus.",
   "changelog": [
+    {
+      "versionCode": 28,
+      "versionName": "2.1.5",
+      "changes": [
+        "Reading: long-strip chapters now fill the screen width and scroll, instead of shrinking to a thin line. Full screen hides the status and navigation bars too, and the controls slip away as you scroll down.",
+        "Pages load in order and much sooner: the next pages download just ahead of you, the next chapter is ready before you reach it, and a page that fails to load can be retried with a tap.",
+        "Tap the left or right side of a page to turn it (Settings → Reading), and the reading mode you pick for a manga now stays with that manga.",
+        "Profile: a new Completed shelf for finished series you've read, and a stats card with your reading streak, chapters this month and favourite genre.",
+        "AniList: connect it in Settings → Connections and every chapter you read here updates your AniList list. You can also bring your AniList list into your library.",
+        "New chapters of manga you're reading can download by themselves on Wi-Fi (Settings → Reading).",
+        "Menus are liquid glass now, the eye in the chapter list marks a chapter read or unread, and Continue reading and Chapters sit side by side at the same size.",
+        "Signing in with Google now shows Mangaku instead of a web address. The floating reading island was removed; Xiaomi's Super Island still works."
+      ]
+    },
     {
       "versionCode": 18,
       "versionName": "2.1.4",
